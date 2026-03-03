@@ -1,0 +1,5 @@
+Styla om index.html så blir att se ut som Slutresultat.jpg.
+HTML-koden ska vara orörd. Ni får bara ändra i css/main.css
+för att få till utseendet.
+
+Huvuddesigngen ska använda grid. Det är OK med flex för att centrera nån liten sak.

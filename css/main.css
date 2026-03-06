@@ -95,6 +95,34 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   body {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+img {
+    height: 100px;
+    width: 100%;
+}
+
+header:first-of-type {
+    grid-column: 4 / 8;
+    grid-row: 1 / 2;
+}
+
+header:first-of-type H1 {
+    font-size: 40px;
+}
+
+header:first-of-type H2 {
+    font-size: 10px;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */

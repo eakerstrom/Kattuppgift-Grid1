@@ -97,8 +97,8 @@ textarea {
 
 body {
     display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(10, 10%);
+    grid-template-rows: repeat(10, 10%);
     margin: 0;
     width: 100vw;
     height: 100vh;
@@ -128,6 +128,11 @@ footer {
     grid-column: 5 / 6;
 }
 
+aside {
+    display: grid;
+    grid-column: 8 / 9;
+    grid-row: 5 / 6;
+}
 
 /* ==========================================================================
    Helper classes
